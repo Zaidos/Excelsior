@@ -1,0 +1,31 @@
+﻿@{
+	ViewBag.Title = "Excelsior Demo";
+}
+<h2 class="align-center">Excelsior Demo</h2>
+<fieldset>
+
+	<h3>Setup</h3>
+	<ol>
+		<li>Add ExcelResult.cs and ExcelControllerExtension.cs to your project.</li>
+		<li>Change the namespace of ExcelControllerExtension to match your controller's namespace.</li>
+	</ol>
+
+	<hr/>
+
+	<h3>Usage</h3>
+	<ul>
+		<li>Make the proper call to 'Excel'</li>
+		<li>Include a filename (with proper extension), worksheet name, and your data rows as IQueryable</li>
+	</ul>
+	<code>
+		return this.Excel("fileName.xls", "worksheetName", data.AsQueryable());
+	</code>
+	<p></p>
+
+	<hr/>
+
+	<h3>Try it!</h3>
+	View the code to see how it is used.
+	<p> @Html.ActionLink("Excelsiate", "Excelsiate", "Home") </p>
+
+</fieldset>

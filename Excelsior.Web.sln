@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excelsior.Web", "Excelsior.Web\Excelsior.Web.csproj", "{8E2D24A8-B703-4A7F-BBDA-846870A75D4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excelsior.Web.Tests", "Excelsior.Web.Tests\Excelsior.Web.Tests.csproj", "{61D83190-5C39-42AF-AD93-F34A6637760A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E2D24A8-B703-4A7F-BBDA-846870A75D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E2D24A8-B703-4A7F-BBDA-846870A75D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E2D24A8-B703-4A7F-BBDA-846870A75D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E2D24A8-B703-4A7F-BBDA-846870A75D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D83190-5C39-42AF-AD93-F34A6637760A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D83190-5C39-42AF-AD93-F34A6637760A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D83190-5C39-42AF-AD93-F34A6637760A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D83190-5C39-42AF-AD93-F34A6637760A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
